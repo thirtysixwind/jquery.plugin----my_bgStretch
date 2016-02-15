@@ -1,0 +1,73 @@
+body {
+	background-color: lightblue;
+}
+
+.warning {
+	background-color: white;
+	color: black;
+}
+
+.box {
+	position: relative;
+	float: left;
+	box-sizing: content-box;
+	margin-left: .1rem;
+	margin-top: .1rem;
+	margin-bottom: .5rem;
+	padding: .5rem;
+	border: .5rem solid rgba(0, 0, 0, .5);
+	box-shadow: 1px 1px 4px rgba(0, 0, 0, .5);
+	overflow: visible;
+}
+.box:nth-of-type(1) {
+	width: 2.8rem;
+	height: 1.2rem;
+	background-clip: content-box;
+}
+.box:nth-of-type(2) {
+	width: 1.2rem;
+	height: 2.8rem;
+	background-clip: padding-box;
+}
+.box:nth-of-type(3) {
+	width: 2rem;
+	height: 2rem;
+	background-clip: border-box;
+}
+
+.control {
+	position: absolute;
+	left: 0;
+	top: calc(100% + .5rem);
+	width: 3rem;
+}
+
+.controlall {
+	position: fixed;
+	right: 0;
+	top: .5rem;
+	width: auto;
+	background-color: white;
+	box-shadow: 0px 1px 4px rgba(0, 0, 0, .5);
+}
+.controlall > * {
+	display: block;
+	margin: .05rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
