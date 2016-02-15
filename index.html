@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=640">
+
+    <link rel="stylesheet" href="stylesheets/core.css" media="screen">
+    <link rel="stylesheet" href="stylesheets/mobile.css" media="handheld, only screen and (max-device-width:640px)">
+    <link rel="stylesheet" href="stylesheets/github-light.css">
+
+    <script type="text/javascript" src="javascripts/modernizr.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script type="text/javascript" src="javascripts/headsmart.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $('#main_content').headsmart()
+      })
+    </script>
+    <title>Jquery.plugin----my bgstretch by thirtysixwind</title>
+  </head>
+
+  <body>
+    <a id="forkme_banner" href="https://github.com/thirtysixwind/jquery.plugin----my_bgStretch">View on GitHub</a>
+    <div class="shell">
+
+      <header>
+        <span class="ribbon-outer">
+          <span class="ribbon-inner">
+            <h1>Jquery.plugin----my bgstretch</h1>
+            <h2>$(selector).my_bgStretch(images, options);</h2>
+          </span>
+          <span class="left-tail"></span>
+          <span class="right-tail"></span>
+        </span>
+      </header>
+
+      <section id="downloads">
+        <span class="inner">
+          <a href="https://github.com/thirtysixwind/jquery.plugin----my_bgStretch/zipball/master" class="zip"><em>download</em> .ZIP</a><a href="https://github.com/thirtysixwind/jquery.plugin----my_bgStretch/tarball/master" class="tgz"><em>download</em> .TGZ</a>
+        </span>
+      </section>
+
+
+      <span class="banner-fix"></span>
+
+
+      <section id="main_content">
+        <h1>
+<a id="usage" class="anchor" href="#usage" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Usage</h1>
+
+<p><code>$(selector).my_bgStretch(images, options);</code>。<code>images</code>是一个数组，传入图像的url。<code>options</code>默认值：</p>
+
+<div class="highlight highlight-source-js"><pre>{
+  centeredX <span class="pl-k">:</span> <span class="pl-c1">true</span>,
+  centeredY <span class="pl-k">:</span> <span class="pl-c1">true</span>,
+  switchType <span class="pl-k">:</span> <span class="pl-s"><span class="pl-pds">'</span><span class="pl-pds">'</span></span>,<span class="pl-c">//可选'slide'或'bounce'或'shake'</span>
+  duration <span class="pl-k">:</span> <span class="pl-c1">5000</span>
+}</pre></div>
+
+<p>控制轮播图片的暂停、开始、上一张、下一张：</p>
+
+<div class="highlight highlight-source-js"><pre><span class="pl-en">$</span>(selector).<span class="pl-en">my_bgStretch</span>().<span class="pl-en">pause</span>();
+<span class="pl-en">$</span>(selector).<span class="pl-en">my_bgStretch</span>().<span class="pl-en">resume</span>();
+<span class="pl-en">$</span>(selector).<span class="pl-en">my_bgStretch</span>().<span class="pl-en">prev</span>();
+<span class="pl-en">$</span>(selector).<span class="pl-en">my_bgStretch</span>().<span class="pl-c1">next</span>();
+<span class="pl-en">$</span>(selector).<span class="pl-en">my_bgStretch</span>().<span class="pl-en">show</span>(index);<span class="pl-c">//index为图片索引，从0开始</span></pre></div>
+      </section>
+
+      <footer>
+        <span class="ribbon-outer">
+          <span class="ribbon-inner">
+            <p>this project by <a href="https://github.com/thirtysixwind">thirtysixwind</a> can be found on <a href="https://github.com/thirtysixwind/jquery.plugin----my_bgStretch">GitHub</a></p>
+          </span>
+          <span class="left-tail"></span>
+          <span class="right-tail"></span>
+        </span>
+        <p>Generated with <a href="https://pages.github.com">GitHub Pages</a> using Merlot</p>
+        <span class="octocat"></span>
+      </footer>
+
+    </div>
+
+    
+  </body>
+</html>
